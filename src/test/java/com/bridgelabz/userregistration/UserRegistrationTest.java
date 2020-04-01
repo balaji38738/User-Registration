@@ -39,4 +39,11 @@ public class UserRegistrationTest {
         boolean result = userRegistration.registerPassword("12345");
         Assert.assertFalse(result);
     }
+
+    @Test
+    public void registerPassword_ifNoUppercaseLetter_shouldReturnFalse() {
+        UserRegistration userRegistration = new UserRegistration();
+        boolean result = userRegistration.registerPassword("12345a7c");
+        Assert.assertFalse(result);
+    }
 }
