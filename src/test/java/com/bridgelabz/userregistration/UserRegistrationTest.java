@@ -25,4 +25,12 @@ public class UserRegistrationTest {
         boolean result = userRegistration.registerEmail("--bijjapwar123@gmail.com");
         Assert.assertFalse(result);
     }
+
+    @Test
+    public void registerMobile_givenProperMobileNo_shouldReturnTrue() {
+        UserRegistration userRegistration = new UserRegistration();
+        boolean result = userRegistration.registerMobile("91 7588847291");
+        Assert.assertTrue(result);
+    }
+
 }
