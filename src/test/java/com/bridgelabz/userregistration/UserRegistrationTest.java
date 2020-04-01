@@ -54,4 +54,10 @@ public class UserRegistrationTest {
         Assert.assertFalse(result);
     }
 
+    @Test
+    public void registerPassword_Only1SpecialChar_shouldReturnTrue() {
+        UserRegistration userRegistration = new UserRegistration();
+        boolean result = userRegistration.registerPassword("1asfdu@As");
+        Assert.assertTrue(result);
+    }
 }
