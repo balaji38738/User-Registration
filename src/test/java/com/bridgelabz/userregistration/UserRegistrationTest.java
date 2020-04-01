@@ -46,4 +46,12 @@ public class UserRegistrationTest {
         boolean result = userRegistration.registerPassword("12345a7c");
         Assert.assertFalse(result);
     }
+
+    @Test
+    public void registerPassword_ifNoDigits_shouldReturnFalse() {
+        UserRegistration userRegistration = new UserRegistration();
+        boolean result = userRegistration.registerPassword("asfd$uAs");
+        Assert.assertFalse(result);
+    }
+
 }
