@@ -33,4 +33,10 @@ public class UserRegistrationTest {
         Assert.assertTrue(result);
     }
 
+    @Test
+    public void registerPassword_ifPasswordShort_shouldReturnFalse() {
+        UserRegistration userRegistration = new UserRegistration();
+        boolean result = userRegistration.registerPassword("12345");
+        Assert.assertFalse(result);
+    }
 }
