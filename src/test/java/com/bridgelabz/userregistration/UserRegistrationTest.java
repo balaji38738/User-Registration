@@ -18,4 +18,11 @@ public class UserRegistrationTest {
         boolean result = userRegistration.registerLastName("Ijjapwar");
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void registerEmail_givenImproperEmailId_shouldReturnFalse() {
+        UserRegistration userRegistration = new UserRegistration();
+        boolean result = userRegistration.registerEmail("--bijjapwar123@gmail.com");
+        Assert.assertFalse(result);
+    }
 }
