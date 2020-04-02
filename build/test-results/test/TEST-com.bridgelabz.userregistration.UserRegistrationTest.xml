@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.userregistration.UserRegistrationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-01T21:57:26" hostname="balaji-Inspiron-5559" time="0.009">
+<testsuite name="com.bridgelabz.userregistration.UserRegistrationTest" tests="29" skipped="0" failures="0" errors="0" timestamp="2020-04-02T00:04:55" hostname="balaji-Inspiron-5559" time="0.032">
   <properties/>
   <testcase name="registerPassword_ifNoUppercaseLetter_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.002"/>
+  <testcase name="registerEmail_givenSample17_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="registerEmail_givenSample7_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
   <testcase name="registerEmail_givenImproperEmailId_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="registerMobile_givenProperMobileNo_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="registerEmail_givenSample21_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="registerEmail_givenSample2_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="registerEmail_givenSample11_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="registerMobile_givenProperMobileNo_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="registerEmail_givenSample16_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="registerEmail_givenSample6_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
   <testcase name="registerPassword_ifNoDigits_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="registerEmail_givenSample20_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="registerEmail_givenSample10_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
   <testcase name="registerLastName_givenProperLastName_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
-  <testcase name="registerPassword_ifPasswordShort_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="registerEmail_givenSample15_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="registerEmail_givenSample1_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="registerPassword_ifPasswordShort_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="registerEmail_givenSample5_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
   <testcase name="registerPassword_Only1SpecialChar_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="registerEmail_givenSample9_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
   <testcase name="registerFirstName_givenProperFirstName_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="registerEmail_givenSample14_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="registerEmail_givenSample19_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="registerEmail_givenSample8_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="registerEmail_givenSample4_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="registerEmail_givenSample13_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="registerEmail_givenSample18_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="registerEmail_givenSample3_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="registerEmail_givenSample12_shouldReturnFalse" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

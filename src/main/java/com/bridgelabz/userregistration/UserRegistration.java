@@ -2,7 +2,7 @@ package com.bridgelabz.userregistration;
 
 public class UserRegistration {
     private static final String NAME_PATTERN = "^[A-Z][a-z]{2,}$";
-    private static final String EMAIL_PATTERN = "^[0-9a-zA-Z]+([_+-.][0-9a-zA-Z]+)*+" +
+    private static final String EMAIL_PATTERN = "^[0-9a-zA-Z]+([_+-.][0-9a-zA-Z]+)*" +
             "@[0-9a-zA-Z]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2})?$";
     private static final String MOBILE_PATTERN = "^[0-9]{1,3} [0-9]{10}$";
     private static final String PASSWORD_PATTERN = "^(?=^\\w*\\W\\w*$)(?=.*\\d)(?=.*[A-Z]).{8,}$";
